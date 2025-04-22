@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-21T23:33:04 IST" name="Default suite" finished-at="2025-04-21T23:33:05 IST" duration-ms="94">
+    <groups>
+    </groups>
+    <test started-at="2025-04-21T23:33:04 IST" name="Default test" finished-at="2025-04-21T23:33:05 IST" duration-ms="94">
+      <class name="JenkinsTest.Jenkins.JenkinsTest">
+        <test-method signature="Test1()[pri:1, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test1" finished-at="2025-04-21T23:33:05 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:2, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test2" finished-at="2025-04-21T23:33:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:3, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test3" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test4()[pri:4, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test4" finished-at="2025-04-21T23:33:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test5()[pri:5, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test5" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method signature="Test6()[pri:6, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test6" finished-at="2025-04-21T23:33:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method signature="Test7()[pri:7, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test7" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7 -->
+        <test-method signature="Test8()[pri:8, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test8" finished-at="2025-04-21T23:33:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8 -->
+        <test-method signature="Test9()[pri:9, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test9" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9 -->
+        <test-method signature="Test10()[pri:10, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test10" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test10 -->
+      </class> <!-- JenkinsTest.Jenkins.JenkinsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
