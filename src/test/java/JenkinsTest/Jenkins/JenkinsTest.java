@@ -44,4 +44,8 @@ public class JenkinsTest {
 	public void Test10(){
 		System.out.println("Test 10 is passed");
 	}
+	
+	@Test(priority=11)
+	public void Test11() {
+		System.out.println(5/0);	}
 }
