@@ -48,4 +48,8 @@ public class JenkinsTest {
 	@Test(priority=11)
 	public void Test11() {
 		System.out.println(5/0);	}
+	
+	public void test12() {
+		System.out.println("hello 12");
+	}
 }

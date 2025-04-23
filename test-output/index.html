@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\testa\AppData\Local\Temp\testng-eclipse-618144228\testng-customsuite.xml</span>
+                    <span>C:\Users\testa\AppData\Local\Temp\testng-eclipse--892373206\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="JenkinsTest.Jenkins.JenkinsTest" class="method navigator-link" hash-for-method="Test11">Test11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -163,6 +177,51 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">JenkinsTest.Jenkins.JenkinsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test11">
+                  </a> <!-- Test11 -->
+                  <span class="method-name">Test11</span>
+                  <div class="stack-trace">java.lang.ArithmeticException: / by zero
+	at JenkinsTest.Jenkins.JenkinsTest.Test11(JenkinsTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -244,7 +303,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\testa\AppData\Local\Temp\testng-eclipse-618144228\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\testa\AppData\Local\Temp\testng-eclipse--892373206\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -293,52 +352,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Test1')
 data.setCell(0, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(0, 3, 9);
+data.setCell(0, 3, 30);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Test4')
+data.setCell(1, 1, 'Test11')
 data.setCell(1, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(1, 3, 2);
+data.setCell(1, 3, 10);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Test2')
+data.setCell(2, 1, 'Test6')
 data.setCell(2, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(2, 3, 2);
+data.setCell(2, 3, 7);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Test6')
+data.setCell(3, 1, 'Test8')
 data.setCell(3, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(3, 3, 2);
+data.setCell(3, 3, 7);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Test8')
+data.setCell(4, 1, 'Test7')
 data.setCell(4, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(4, 3, 2);
+data.setCell(4, 3, 6);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Test5')
+data.setCell(5, 1, 'Test9')
 data.setCell(5, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(5, 3, 1);
+data.setCell(5, 3, 6);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Test7')
+data.setCell(6, 1, 'Test2')
 data.setCell(6, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(6, 3, 1);
+data.setCell(6, 3, 5);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Test9')
+data.setCell(7, 1, 'Test4')
 data.setCell(7, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(7, 3, 1);
+data.setCell(7, 3, 5);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'Test10')
 data.setCell(8, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(8, 3, 1);
+data.setCell(8, 3, 5);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'Test3')
+data.setCell(9, 1, 'Test5')
 data.setCell(9, 2, 'JenkinsTest.Jenkins.JenkinsTest')
-data.setCell(9, 3, 1);
+data.setCell(9, 3, 5);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test3')
+data.setCell(10, 2, 'JenkinsTest.Jenkins.JenkinsTest')
+data.setCell(10, 3, 5);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 ms</span>
+              <span class="suite-total-time">Total running time: 91 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -371,39 +434,45 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test2</span>
-                <span class="method-start">16 ms</span>
+                <span class="method-start">52 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test3</span>
-                <span class="method-start">21 ms</span>
+                <span class="method-start">63 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test4</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-start">76 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test5</span>
-                <span class="method-start">30 ms</span>
+                <span class="method-start">91 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test6</span>
-                <span class="method-start">34 ms</span>
+                <span class="method-start">104 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test7</span>
-                <span class="method-start">39 ms</span>
+                <span class="method-start">122 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test8</span>
-                <span class="method-start">42 ms</span>
+                <span class="method-start">135 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test9</span>
-                <span class="method-start">47 ms</span>
+                <span class="method-start">151 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test10</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-start">168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test11</span>
+                <span class="method-start">181 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

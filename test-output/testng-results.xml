@@ -1,52 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-21T23:33:04 IST" name="Default suite" finished-at="2025-04-21T23:33:05 IST" duration-ms="94">
+  <suite started-at="2025-04-23T16:45:23 IST" name="Default suite" finished-at="2025-04-23T16:45:23 IST" duration-ms="337">
     <groups>
     </groups>
-    <test started-at="2025-04-21T23:33:04 IST" name="Default test" finished-at="2025-04-21T23:33:05 IST" duration-ms="94">
+    <test started-at="2025-04-23T16:45:23 IST" name="Default test" finished-at="2025-04-23T16:45:23 IST" duration-ms="337">
       <class name="JenkinsTest.Jenkins.JenkinsTest">
-        <test-method signature="Test1()[pri:1, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test1" finished-at="2025-04-21T23:33:05 IST" duration-ms="9" status="PASS">
+        <test-method signature="Test1()[pri:1, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test1" finished-at="2025-04-23T16:45:23 IST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method signature="Test2()[pri:2, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test2" finished-at="2025-04-21T23:33:05 IST" duration-ms="2" status="PASS">
+        <test-method signature="Test2()[pri:2, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test2" finished-at="2025-04-23T16:45:23 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method signature="Test3()[pri:3, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test3" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test3()[pri:3, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test3" finished-at="2025-04-23T16:45:23 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method signature="Test4()[pri:4, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test4" finished-at="2025-04-21T23:33:05 IST" duration-ms="2" status="PASS">
+        <test-method signature="Test4()[pri:4, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test4" finished-at="2025-04-23T16:45:23 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test4 -->
-        <test-method signature="Test5()[pri:5, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test5" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test5()[pri:5, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test5" finished-at="2025-04-23T16:45:23 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test5 -->
-        <test-method signature="Test6()[pri:6, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test6" finished-at="2025-04-21T23:33:05 IST" duration-ms="2" status="PASS">
+        <test-method signature="Test6()[pri:6, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test6" finished-at="2025-04-23T16:45:23 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test6 -->
-        <test-method signature="Test7()[pri:7, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test7" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test7()[pri:7, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test7" finished-at="2025-04-23T16:45:23 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test7 -->
-        <test-method signature="Test8()[pri:8, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test8" finished-at="2025-04-21T23:33:05 IST" duration-ms="2" status="PASS">
+        <test-method signature="Test8()[pri:8, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test8" finished-at="2025-04-23T16:45:23 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test8 -->
-        <test-method signature="Test9()[pri:9, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test9" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test9()[pri:9, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test9" finished-at="2025-04-23T16:45:23 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test9 -->
-        <test-method signature="Test10()[pri:10, instance:JenkinsTest.Jenkins.JenkinsTest@6f1de4c7]" started-at="2025-04-21T23:33:05 IST" name="Test10" finished-at="2025-04-21T23:33:05 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test10()[pri:10, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test10" finished-at="2025-04-23T16:45:23 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test10 -->
+        <test-method signature="Test11()[pri:11, instance:JenkinsTest.Jenkins.JenkinsTest@4d5d943d]" started-at="2025-04-23T16:45:23 IST" name="Test11" finished-at="2025-04-23T16:45:23 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at JenkinsTest.Jenkins.JenkinsTest.Test11(JenkinsTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11 -->
       </class> <!-- JenkinsTest.Jenkins.JenkinsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
